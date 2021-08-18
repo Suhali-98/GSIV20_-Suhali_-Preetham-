@@ -2,16 +2,16 @@ import React, { useEffect } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import BottomNavigation from "@material-ui/core/BottomNavigation";
 import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
-
+import TvIcon from "@material-ui/icons/Tv";
 import WhatshotIcon from "@material-ui/icons/Whatshot";
 import TheatersIcon from "@material-ui/icons/Theaters";
-import TvIcon from "@material-ui/icons/Tv";
+
 import SearchIcon from "@material-ui/icons/Search";
 import { useHistory } from "react-router-dom";
 
 const useStyles = makeStyles({
   root: {
-    width: 500,
+    width: "100%",
     position: "fixed",
     bottom: 0,
     backgroundColor: "#252525",
@@ -51,7 +51,7 @@ function SimpleBottomNavigation() {
       />
       <BottomNavigationAction
         style={{ color: "white" }}
-        label="Series"
+        label="TV Series"
         icon={<TvIcon />}
       />
       <BottomNavigationAction
