@@ -1,0 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import "react-alice-carousel/lib/alice-carousel.css";
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
