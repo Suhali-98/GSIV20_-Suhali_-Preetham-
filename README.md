@@ -4,7 +4,7 @@ The application name is Box-Office.
 a. Instructions about how to run and test your code.
 
 The application consists of 4 pages. The first page is trending list of movies/series. The second page is Movies list. The third is Series list. The final page is search page.
-Each page is styled using CSSstylesheet. The first application is run using ReactJS server.
+Each page is styled using CSSstylesheet. The application is run using ReactJS server.
 
 b. List elements from the challenge that you think you have done well, and that exemplify your proficiency. 
 
